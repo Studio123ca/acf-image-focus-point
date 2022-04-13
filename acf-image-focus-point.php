@@ -37,7 +37,7 @@ class acf_plugin_image_focus_point {
 
 		// vars
 		$this->settings = array(
-			'version'	=> '1.2.0',
+			'version'	=> '1.2.3',
 			'url'		=> plugin_dir_url( __FILE__ ),
 			'path'		=> plugin_dir_path( __FILE__ )
 		);
