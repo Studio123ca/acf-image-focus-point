@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: Image Focus Point Field
 Plugin URI: https://github.com/Studio123ca/acf-image-focus-point
 Description: Adds a field to capture coordinates relative to specified images
-Version: 1.2.3
+Version: 1.2.4
 Author: Cody Marcoux
 Author URI:
 License: GPLv2 or later
@@ -37,7 +37,7 @@ class acf_plugin_image_focus_point {
 
 		// vars
 		$this->settings = array(
-			'version'	=> '1.2.3',
+			'version'	=> '1.2.4',
 			'url'		=> plugin_dir_url( __FILE__ ),
 			'path'		=> plugin_dir_path( __FILE__ )
 		);
