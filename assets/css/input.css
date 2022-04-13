@@ -1,0 +1,66 @@
+.image_focus_point-image {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.acf-field-image-mapping {
+  min-height: 400px !important;
+}
+
+.image_focus_point-image img {
+  display: block;
+  max-width: 100%;
+}
+
+.image_focus_point-image span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+.image_focus_point-image span:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 4px;
+  height: 4px;
+  content: '';
+  margin-left: -2px;
+  margin-top: -2px;
+  border-radius: 3px;
+}
+
+.image_focus_point-image span {
+  background: transparent;
+  border: 4px solid red;
+  width: 15px;
+  height: 15px;
+  transition: .35s ease-out;
+}
+
+.acf-field-image-mapping {
+  min-height: 400px !important;
+}
+
+.acf-field-image-mapping .input-container {
+  position: relative;
+  padding: 15px 0;
+}
+
+.acf-field-image-mapping .input-container ul {
+  position: absolute;
+      right: 0px;
+      bottom: -4px;
+      z-index: 99;
+}
+
+.acf-field-image-mapping .input-container ul button {
+  min-height: 30px;
+}
